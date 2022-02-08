@@ -23,14 +23,14 @@ In this project, PySpark on AWS EMR was used to clean, model, and pipeline data 
 
 ## Examples of Data Analyses that can be performed
 
-Which counties had the most severe accidents? Do they have a higher than average population? Which counties had the highest number of accidents? Do they have a higher than average population?
+1. Which counties had the most severe accidents? Do they have a higher than average population? Which counties had the highest number of accidents? Do they have a higher than average population?
 
 The counties with the most severe accidents do not have higher than average population. The counties with the highest number of accidents do have higher than average population. This could be because in uncongested areas, the only accidents that happen are on highspeed highways, which tend to be more serious. There are not as many minor fender benders.
 
-What day of the week do most accidents occur?
+2. What day of the week do most accidents occur?
 
 The day of the week that most accidents occurred was Thursday.
 
-What was the average temperature at which accidents occurred in New York? In North Dakota?
+3. What was the average temperature at which accidents occurred in New York? In North Dakota?
 
 For NY the average temperature was 61, for North Dakota it was 55.
