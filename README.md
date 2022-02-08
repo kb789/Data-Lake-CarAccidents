@@ -1,7 +1,7 @@
 # A Data Lake to analyze U.S. Car Accident and Population Data in 2016-2017 
 ## Project Overview
 
-In this project, PySpark on AWS EMR was used to clean, model, and pipeline data from two large datasets: US Accidents: A Countrywide Traffic Accident Dataset and County-Level-Data-USDA-Economic-Research-Service. This pipeline transfers and transforms the data so that analyses can be performed to determine what factors might contribute to car accidents. 
+In this project, PySpark on AWS EMR was used to clean, model, and pipeline data from two large datasets: [US Accidents: A Countrywide Traffic Accident Dataset](https://www.kaggle.com/sobhanmoosavi/us-accidents) and [County-Level-Data-USDA-Economic-Research-Service.](https://data.world/nrippner/county-level-data-usda-economic-research-service) This pipeline transfers and transforms the data so that analyses can be performed to determine what factors might contribute to car accidents. 
 
 
 ## Data Pipeline
@@ -23,14 +23,14 @@ In this project, PySpark on AWS EMR was used to clean, model, and pipeline data 
 
 ## Examples of Data Analyses that can be performed
 
-1. Which counties had the most severe accidents? Do they have a higher than average population? Which counties had the highest number of accidents? Do they have a higher than average population?
+Question: Which counties had the most severe accidents? Do they have a higher than average population? Which counties had the highest number of accidents? Do they have a higher than average population?
 
-The counties with the most severe accidents do not have higher than average population. The counties with the highest number of accidents do have higher than average population. This could be because in uncongested areas, the only accidents that happen are on highspeed highways, which tend to be more serious. There are not as many minor fender benders.
+Answer: The counties with the most severe accidents do not have higher than average population. The counties with the highest number of accidents do have higher than average   population. This could be because in uncongested areas, the only accidents that happen are on highspeed highways, which tend to be more serious. There are not as many minor fender benders.
 
-2. What day of the week do most accidents occur?
+Question: What day of the week do most accidents occur?
 
-The day of the week that most accidents occurred was Thursday.
+Answer: The day of the week that most accidents occurred was Thursday.
 
-3. What was the average temperature at which accidents occurred in New York? In North Dakota?
+Quesion: What was the average temperature at which accidents occurred in New York? In North Dakota?
 
-For NY the average temperature was 61, for North Dakota it was 55.
+Answer: For NY the average temperature was 61, for North Dakota it was 55.
